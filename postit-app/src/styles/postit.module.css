@@ -1,0 +1,30 @@
+.post-it {
+  width: 250px;
+  min-height: 240px;
+  background-color: var(--color);
+  font-family: 'Pangolin', cursive;
+  color: var(--dark-400);
+  display: flex;
+  flex-direction: column;
+}
+
+.post-it__header {
+  height: 20px;
+  width: 100%;
+  padding: 4px;
+  text-align: end;
+  color: #fff;
+}
+
+.post-it__header svg {
+  cursor: pointer;
+}
+
+.post-it__content {
+  min-height: inherit;
+  width: inherit;
+  outline: none;
+  padding: 1rem;
+  cursor: text;
+  word-wrap: break-word;
+}

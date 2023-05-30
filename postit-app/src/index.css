@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Signika:wght@300;400&display=swap');
+:root {
+  font-size: 62.5%;
+  font-family: 'Signika', sans-serif;
+
+  /* colors */
+  --dark-400: #4b4b4b;
+  --color-green: #e4ef8f;
+  --color-orange: #fe9b72;
+  --color-yellow: #fec971;
+  --color-purple: #b693fd;
+  --color-blue: #00d4fe;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+
+.board {
+  width: 100%;
+  height: calc(100vh - 75px);
+  position: relative;
+}
